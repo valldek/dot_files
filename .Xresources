@@ -1,0 +1,5 @@
+XTerm*boldMode: false
+XTerm*alwaysBoldMode: false
+XTerm*allowBoldFonts: false
+XTerm*scrollTtyOutput: true
+XTerm*geometry: 138x38
