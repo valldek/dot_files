@@ -1,15 +1,15 @@
+# BASH PROMPT
+export PS1='${debian_chroot:+($debian_chroot)}\[\033[00;33m\]\d \t  \[\033[00;32m\]\u@\h\[\033[01;34m\]  \w\[\033[00m\]\n\$> '
+
 # LIST CONTENT
 alias ls='ls --color=auto'
 alias ll='ls -lF'
 alias la='ls -alF --group-directories-first' 
 
-# ALWAYS USE VIM
+# VIM > VI
 alias vi='vim'
 
-# STARTX CLEAR EXIT SHOUTDOWN XFCE4-TASKMANAGER UNMOUNT
-alias sx='startx'
-alias cls='clear'
-alias xx='exit'
+# SHOUTDOWN XFCE4-TASKMANAGER UNMOUNT
 alias bye='sudo shutdown -h now'
 
 alias xtop='xce4-taskmanager'

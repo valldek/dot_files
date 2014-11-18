@@ -15,13 +15,15 @@ set ruler
 set showcmd		"show commands executed
 set wildmenu		"show menu off available options
 set wildmode=full	
-set noswapfile		"no edited file swap file creation
+set noswapfile		"no edited file swap creation
 set backspace=indent,eol,start		"correct backspace functinallity
 
 set number		"line numbering
 "set list		"see line endings, tabulators, etc...
 set cc=80		"Vertical line at 80 character
 set cursorline		"highlight current line
+set wrap		"wrap text
+set linebreak		"break at spaces not words
 
 set visualbell		"disable computer speeker beeps
 set background=dark		"darkbackground version of color scheme
